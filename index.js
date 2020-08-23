@@ -1,7 +1,8 @@
 var lang = new Lang();
 
 lang.init({
-    defaultLang: 'en'
+    defaultLang: 'en',
+	currentLang: 'en'
 });
 
 lang.dynamic('en', 'langpack/en.json');

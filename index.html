@@ -22,6 +22,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/flag-icon.min.css" rel="stylesheet">
 
 </head>
 
@@ -50,15 +51,6 @@
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact" lang="en" data-lang-token="contact">Contact</a>
           </li>
-          <div class="nav-item">
-            <button class="btn nav-link js-scroll" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <div lang="en" data-lang-token="language"></div>
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" onclick="window.lang.change('en'); return false;"><div lang="en" data-lang-token="english"></div></a>
-              <a class="dropdown-item" onclick="window.lang.change('de'); return false;"><div lang="en" data-lang-token="german"></div></a>
-            </div>
-          </div>
         </ul>
       </div>
     </div>
@@ -367,6 +359,15 @@
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
             -->
               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+              <div lang="en" data-lang-token="language"></div>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" onclick="window.lang.change('en'); return false;"><span class="flag-icon flag-icon-us"> </span>  English</a>
+              <a class="dropdown-item" onclick="window.lang.change('de'); return false;"><span class="flag-icon flag-icon-de"> </span>  Deutsch</a>
             </div>
           </div>
         </div>
